@@ -36,6 +36,7 @@ public static void main(String[] args) {
 	
 	int num1;
 	String home = null, office = null;
+	
 	while(true) {
 	System.out.println("\n*** list ***");
 	System.out.println("1. 우리집 등록");
@@ -57,9 +58,10 @@ public static void main(String[] args) {
 			System.out.println("등록완료");
 			break;
 		case 3:
+		
 			System.out.println("\n우리집: "+home);
 			System.out.println("회사: "+office);
-	
+			
 		}	
 	
 	}
